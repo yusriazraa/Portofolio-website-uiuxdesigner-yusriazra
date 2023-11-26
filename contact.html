@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Yusri Azra</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <button id="yusri-toggleNav" class="yusri_button_primary">
+      <img src="assets/Icon/hamburger-bar.svg" alt="" /> Menu
+    </button>
+    <nav id="yusri-navbar" class="yusri-navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="exploration.html">Exploration</a></li>
+        <li><a href="testimoni.html">Testimoni</a></li>
+        <li><a href="porto.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <!-- Contact Us Section -->
+      <section id="yusri-contact" class="yusri-contact">
+        <div class="yusri_contact-container">
+          <div class="yusri_contact-content">
+            <h1>Contact Us</h1>
+            <p>Have any questions or inquiries? Feel free to contact me!</p>
+
+            <!-- Form -->
+            <form onsubmit="yusri_alert()">
+              <div class="yusri_form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="yusri_form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Your Message"
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <div class="yusri_form-group">
+                <button class="yusri_button_primary" type="submit">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="yusri_contact-illustration">
+            <img src="assets/yusri-contactus.png" alt="Illustration" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="footer-yusri">
+      <img src="assets/logo/logo-yusriazra.png" alt="Logo-yusriazra" />
+      <div class="credit-yusri">
+        <h5>Copyright 2023 <span>© Yusri Azra Lazwardi</span></h5>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
